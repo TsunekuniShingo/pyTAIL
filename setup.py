@@ -7,7 +7,7 @@ def _requires_from_file(filename):
 setup(
       name='pyTAIL',
       version='0.0',
-      packages=find_packages(),
+      packages=find_packages(where='pyTAIL'),
       include_package_data=True,
       install_requires=_requires_from_file('requirements.txt')
 )
