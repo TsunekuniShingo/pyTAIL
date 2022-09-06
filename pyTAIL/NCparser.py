@@ -1,7 +1,7 @@
 import re
 
 class NCparser:
-    def __init__(self,nc,identifier=['X','Y','Z','B','C']):
+    def __init__(self,nc,identifier=['X','Y','Z']):
         self.nc = nc
         self.identifier = identifier
 
